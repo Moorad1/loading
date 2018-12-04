@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Loading</title>
+</head>
+<body>
+	<img src='logo.png' width='140em'>
+	<img src='loader.png' width='450em' style='animation:rotation 2s linear 0s infinite;'>
+	<style>
+		@keyframes rotation {
+			from {transform: rotate(0deg);}
+			to {transform: rotate(360deg);}
+		}
+
+	body {
+		overflow:hidden	;
+		background: #121221;
+	}
+	img {
+		position: absolute;
+		top:0;
+		right:0;
+		left:0;
+		bottom:0;
+		margin:auto;
+	}
+
+	</style>
+</body>
+</html>
